@@ -21,7 +21,7 @@ export default class EditItems extends Component {
   }
 
   componentDidMount() {
-    axios.get('http://localhost:5000/items/'+this.props.match.params.id)
+    axios.get('https://inventory-be.herokuapp.com/items/'+this.props.match.params.id)
       .then(response => {
         this.setState({
           itemName: response.data.itemName,
@@ -68,7 +68,7 @@ export default class EditItems extends Component {
 
     console.log(item);
 
-    axios.post('http://localhost:5000/items/update/' + this.props.match.params.id, item)
+    axios.post('https://inventory-be.herokuapp.com/items/update/' + this.props.match.params.id, item)
       .then(res => console.log(res.data));
 
     window.location = '/';

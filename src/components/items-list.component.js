@@ -24,7 +24,7 @@ export default class ItemsList extends Component {
   }
 
   componentDidMount() {
-    axios.get('http://localhost:5000/items/')
+    axios.get('https://inventory-be.herokuapp.com/items/')
       .then(response => {
         this.setState({ items: response.data })
       })
@@ -34,7 +34,7 @@ export default class ItemsList extends Component {
   }
 
   deleteItem(id) {
-    axios.delete('http://localhost:5000/items/'+id)
+    axios.delete('https://inventory-be.herokuapp.com/items/'+id)
       .then(response => { console.log(response.data)});
 
     this.setState({

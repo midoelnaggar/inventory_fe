@@ -19,7 +19,7 @@ export default class CreateItem extends Component {
     }
   }
   componentDidMount() {
-    axios.get('http://localhost:5000/items/')
+    axios.get('https://inventory-be.herokuapp.com/items/')
       .then(response => {
         if (response.data.length > 0) {
           this.setState({
@@ -61,7 +61,7 @@ export default class CreateItem extends Component {
 
     console.log(item);
 
-    axios.post('http://localhost:5000/items/add', item)
+    axios.post('https://inventory-be.herokuapp.com/items/add', item)
       .then(res => console.log(res.data));
 
     this.setState({
