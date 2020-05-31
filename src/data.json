@@ -1,0 +1,6 @@
+{"products":[{"name":"Wood","quantity":0},
+           {"name":"Plastic","quantity":0}],
+ "orders":[{"number":2001,"orderProduct":"Wood","orderQuantity":30},
+         {"number":2002,"orderProduct":"Plastic","orderQuantity":40},
+         {"number":2003,"orderProduct":"Wood","orderQuantity":50}]
+  }
