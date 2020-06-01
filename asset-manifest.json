@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/inventory_fe/static/js/main.641513a2.chunk.js",
-    "main.js.map": "/inventory_fe/static/js/main.641513a2.chunk.js.map",
+    "main.js": "/inventory_fe/static/js/main.c3b812d1.chunk.js",
+    "main.js.map": "/inventory_fe/static/js/main.c3b812d1.chunk.js.map",
     "runtime-main.js": "/inventory_fe/static/js/runtime-main.afe2a512.js",
     "runtime-main.js.map": "/inventory_fe/static/js/runtime-main.afe2a512.js.map",
     "static/css/2.6d92adba.chunk.css": "/inventory_fe/static/css/2.6d92adba.chunk.css",
     "static/js/2.d7cbfe12.chunk.js": "/inventory_fe/static/js/2.d7cbfe12.chunk.js",
     "static/js/2.d7cbfe12.chunk.js.map": "/inventory_fe/static/js/2.d7cbfe12.chunk.js.map",
     "index.html": "/inventory_fe/index.html",
-    "precache-manifest.917d979e77653eb6657cafa44d02e393.js": "/inventory_fe/precache-manifest.917d979e77653eb6657cafa44d02e393.js",
+    "precache-manifest.f2645473d747e37dbc007d0f6cf51373.js": "/inventory_fe/precache-manifest.f2645473d747e37dbc007d0f6cf51373.js",
     "service-worker.js": "/inventory_fe/service-worker.js",
     "static/css/2.6d92adba.chunk.css.map": "/inventory_fe/static/css/2.6d92adba.chunk.css.map",
     "static/js/2.d7cbfe12.chunk.js.LICENSE.txt": "/inventory_fe/static/js/2.d7cbfe12.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.afe2a512.js",
     "static/css/2.6d92adba.chunk.css",
     "static/js/2.d7cbfe12.chunk.js",
-    "static/js/main.641513a2.chunk.js"
+    "static/js/main.c3b812d1.chunk.js"
   ]
 }
